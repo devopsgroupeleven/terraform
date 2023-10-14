@@ -1,0 +1,4 @@
+vpc_cidr_block = "16.16.0.0/16"
+vpc_id = "vpc-0dc500cd33716f68e"
+vpc_cidr_block = "16.16.0.0/16"
+vpc_id = "vpc-0dc500cd33716f68e"

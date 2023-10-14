@@ -1,0 +1,13 @@
+ami = tomap({
+  "ubuntu20" = "ami-08e5424edfe926b43"
+  "ubuntu22" = "ami-0f5ee92e2d63afc18"
+})
+instance_type = tolist([
+  "t2.micro",
+  "t2.medium",
+  "t2.large",
+  "m5.4xlarge",
+])
+key_name = "web_server_aws"
+private_ip = "172.31.13.7"
+public_ip = "3.110.92.90"
